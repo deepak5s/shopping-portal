@@ -50,7 +50,7 @@ public class DBConfig {
 		LocalSessionFactoryBuilder builder = new LocalSessionFactoryBuilder(dataSource);
 		
 		builder.addProperties(getHibernateProperties());
-		builder.scanPackages("com.IndusBackend.dto");
+		builder.scanPackages("com.EzoneBackend.dto");
 		
 		return builder.buildSessionFactory();
 		

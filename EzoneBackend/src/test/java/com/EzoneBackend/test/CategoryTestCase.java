@@ -23,7 +23,7 @@ public class CategoryTestCase {
 	@BeforeClass
 	public static void init() {
 		context = new AnnotationConfigApplicationContext();
-		context.scan("com.IndusBackend");
+		context.scan("com.EzoneBackend");
 		context.refresh();
 		categoryDAO = (CategoryDAO)context.getBean("categoryDAO");
 	}
