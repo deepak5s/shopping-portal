@@ -7,7 +7,7 @@
         <dependent-module archiveName="EzoneBackend-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/EzoneBackend/EzoneBackend">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <property name="java-output-path" value="/EzoneFrontend/target/classes"/>
         <property name="context-root" value="EzoneFrontend"/>
+        <property name="java-output-path" value="/EzoneFrontend/target/classes"/>
     </wb-module>
 </project-modules>
